@@ -35,8 +35,8 @@ switch (new Date().getDay()) {
 }
 
 //alert(greeting + ' Happy ' + day)
-var check= prompt("Enter your name","Name")
-if (check !== '') {
+// var check= prompt("Enter your name","Name")
+// if (check !== '') {
     alert(greeting + ' ' + check + ' Happy ' + day);
 }
     document.getElementsById("mars").innerHTML = "Happy " + day;
